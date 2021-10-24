@@ -14,10 +14,6 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "seed-talents": "ts-node src/seedTalents.ts",
-      "seed-spells": "ts-node src/spells.ts",
-      "seed-stats": "ts-node src/stats.ts",
-      "seed-items": "ts-node src/items.ts",
-      "seed-monsters": "ts-node src/monsters.ts"
+      "seed:db": "ts-node src/seed/enchant.ts",
    }
 }
