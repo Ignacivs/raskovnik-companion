@@ -1,0 +1,23 @@
+{
+   "name": "raskovnik",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.38"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "seed-talents": "ts-node src/seedTalents.ts",
+      "seed-spells": "ts-node src/spells.ts",
+      "seed-stats": "ts-node src/stats.ts",
+      "seed-items": "ts-node src/items.ts",
+      "seed-monsters": "ts-node src/monsters.ts"
+   }
+}
