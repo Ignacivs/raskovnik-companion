@@ -17,4 +17,7 @@ export class spells{
 
     @Column()
     casting:number;
+
+    @Column({ nullable: true })
+    reaction:boolean;
 }

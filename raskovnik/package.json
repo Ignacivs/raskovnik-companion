@@ -14,6 +14,6 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "seed:db": "ts-node src/seed/enchant.ts",
+      "seed:db": "ts-node src/seed/talentSeed.ts && ts-node src/seed/spellSeed.ts "
    }
 }
